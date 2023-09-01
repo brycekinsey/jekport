@@ -5,8 +5,13 @@
 title: Jekport
 # description: This will be meta HTML tag content.
 description: "Jekport: The Jekyll Portfolio"
-# baseurl: The subpath of your site
-# > set this to "", if you renamed the repository to <user>.github.io
+
+# This url field specifies the URL of the site. When combined with baseurl, it helps Jekyll generate the full URLs for assets and links. 
+# For example, if url is set to https://username.github.io and baseurl is set to /blog, a relative link to /assets/css/main.css would resolve to https://username.github.io/blog/assets/css/main.css.
+# > For the url, fill in the protocol & hostname for your site, e.g., 'https://username.github.io'.
+# > For the baseurl, fill in the subpath of your site (if applicable), e.g., '/blog'.
+#   > Set this to "", if you don't have a baseurl.
+url: "https://brycekinsey.com"
 baseurl: "/jekport"
 
 # LANDING PAGE
@@ -96,7 +101,7 @@ projects:
     # archived:
     # > setting this to true, will exclude archived repositories
     # > setting this to false, will also display archived repositories
-    archived: true
+    archived: false
     # forks:
     # > setting this to true, will exclude forked repositories
     # > setting this to false, will also display forked repositories

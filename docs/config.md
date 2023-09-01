@@ -4,8 +4,13 @@
 
 * `title`: This will be displayed as the website's name in your browser tab.
 * `description`: This will be meta HTML tag content.
+* `url`: The URL of your site.
+  * Set this to the protocol & hostname for your site, e.g., 'https://username.github.io'.
 * `baseurl`: The subpath of your site
-  * set this to **""**, if you renamed the repository to `<user>.github.io`
+  * Set this to the subpath of your site (if applicable), e.g., '/blog'.
+  * Set this to "", if you don't have a baseurl.
+
+*Note: This url field specifies the URL of the site. When combined with baseurl, it helps Jekyll generate the full URLs for assets and links. For example, if url is set to https://username.github.io and baseurl is set to /blog, a relative link to /assets/css/main.css would resolve to https://username.github.io/blog/assets/css/main.css.*
 
 ## Landing Page
 

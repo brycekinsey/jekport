@@ -1,1 +1,7 @@
-baseurl: "/jekport" # the subpath of your site, e.g. /blog
+# This url field specifies the URL of the site. When combined with baseurl, it helps Jekyll generate the full URLs for assets and links. 
+# For example, if url is set to https://username.github.io and baseurl is set to /blog, a relative link to /assets/css/main.css would resolve to https://username.github.io/blog/assets/css/main.css.
+# > For the url, fill in the protocol & hostname for your site, e.g., 'https://username.github.io'.
+# > For the baseurl, fill in the subpath of your site (if applicable), e.g., '/blog'.
+#   > Set this to "", if you don't have a baseurl.
+url: "http://localhost:4000"
+baseurl: "/jekport"
