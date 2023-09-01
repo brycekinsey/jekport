@@ -5,57 +5,64 @@
 # > tags: List of tags you want to associate with the entry
 # > timeline-side: The side on which you want to display the entry: left or right
 
-# Example of a timeline entry
-# - title: airbnb
-#   title-url: https://example.com/
-#   date: Sep 2019 - Present
-#   subtitle: Fullstack Developer
-#   tags:
-#     - tag: React
-#     - tag: Javascript
-#     - tag: Ruby
-#     - tag: Rails
-#   timeline-side: right
-
-- title: airbnb
-  title-url: https://example.com/
-  date: Sep 2019 - Present
-  subtitle: Fullstack Developer
+- title: Cloud Engineer Intern
+  title-url: https://www.microsoft.com
+  date: Jan 2017 - Feb 2018
+  subtitle: Microsoft
   tags:
-    - tag: React
-    - tag: Javascript
-    - tag: Ruby
-    - tag: Rails
+    - tag: Azure
+    - tag: Office 365
+    - tag: Intune
   timeline-side: right
 
-- title: Google
-  title-url: https://example.com/
-  date: Mar 2019 - Sep 2019
-  subtitle: Software Engineer as Intern
+- title: Cloud Engineer
+  title-url: https://www.hpe.com
+  date: Mar 2022 - Present
+  subtitle: Hewlett Packard Enterprise
   tags:
-    - tag: Flutter
-    - tag: Dart
-    - tag: Keycloak
+    - tag: Azure
+    - tag: AWS
+    - tag: Migrations
   timeline-side: right
 
-- title: Super University
-  title-url: https://example.com/
-  date: 2017 - 2019
-  subtitle: M.Sc. Computer Science
+- title: CompTIA Cloud+
+  title-url: https://www.comptia.org/certifications/cloud
+  date: Jul 2021
+  subtitle: Certification
   timeline-side: left
 
-- title: Facebook
-  title-url: https://example.com/
-  date: Sep 2017 - Mar 2019
-  subtitle: Front-End Developer as Intern
+- title: Systems Administrator
+  title-url: https://aws.amazon.com
+  date: Mar 2020 - Mar 2022
+  subtitle: Amazon
   tags:
-    - tag: React
-    - tag: Node
-    - tag: Javascript
+    - tag: AWS
+    - tag: S3
+    - tag: Cloud
   timeline-side: right
 
-- title: Super University
-  title-url: https://example.com/
-  date: 2014 - 2017
-  subtitle: B.A. Computer Science
+- title: Helpdesk Support Technician
+  title-url: https://www.apple.com
+  date: Mar 2018 - Mar 2020
+  subtitle: Apple
+  tags:
+    - tag: Jamf
+    - tag: MacOS
+    - tag: iOS
+  timeline-side: right
+
+- title: Cloud Engineer Intern
+  title-url: https://www.microsoft.com
+  date: Jan 2017 - Feb 2018
+  subtitle: Microsoft
+  tags:
+    - tag: Azure
+    - tag: Office 365
+    - tag: Intune
+  timeline-side: right
+
+- title: Florida Atlantic University
+  title-url: https://www.fau.edu
+  date: Aug 2016 - May 2018
+  subtitle: B.S. Computer Science
   timeline-side: left

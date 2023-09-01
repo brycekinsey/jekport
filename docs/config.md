@@ -3,7 +3,7 @@
 ## General Site Settings
 
 * `title`: This will be displayed as the website's name in your browser tab.
-* `description`: This will be meta HTML tag content. This can be ignored.
+* `description`: This will be meta HTML tag content.
 * `baseurl`: The subpath of your site
   * set this to **""**, if you renamed the repository to `<user>.github.io`
 
@@ -18,11 +18,11 @@
   * For every social button you want to display, set your username or userid
   * Usernames or ids can usually be taken from your profile links
   * If you do not use one of the following websites, then leave it empty
-  * e.g. since I don't blog on dev.to or have Twitter my configs are like this:
-    * `github_username`: **longpdo**
-    * `codepen_username`: **longpdo**
+  * e.g. since I use GitHub and LinkedIn but not Twitter or Codepen, my configs are like this:
+    * `github_username`: **brycekinsey**
+    * `codepen_username`: 
     * `dev_username`:
-    * `linkedin_username`: **longpdo**
+    * `linkedin_username`: **bryce-kinsey**
     * `twitter_username`:
 
 ## About Me Section
@@ -32,10 +32,10 @@
   * setting this to **false**, will omit the About Me section
 * `about_me_title`: The will be displayed as the title in the About Me section
 * `about_me_description`: This will be displayed under the title.
-  * You can add and style website links with this HTML template inside every **section_description**, e.g. checkout the current `about_me_description`:
+  * You can add and style website links with this HTML template inside every **section_description**, e.g. check out the current `about_me_description`:
 
   ```html
-  <a class="highlight-link" href="https://github.com/longpdo/neumorphism" target="_blank" rel="noreferrer"> Github </a>
+  <a class="highlight-link" href="https://github.com/brycekinsey/jekport" target="_blank" rel="noreferrer"> Github </a>
   ```
 
 ## Skills Section
@@ -65,7 +65,7 @@
 * `show_os_projects`:
   * setting this to **true**, will display your public projects on github
   * setting this to **false**, will omit your public projects on github
-* `os_projects_title`: The will be displayed as the title of your open source projects
+* `os_projects_title`: The will be displayed as the title of your open source (public) projects from GitHub
 
 ## Contact Section
 

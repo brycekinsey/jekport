@@ -1,12 +1,12 @@
 {
-  "name": "Neumorphism",
+  "name": "jekport",
   "version": "1.0.0",
-  "description": "",
+  "description": "Jekport is a Jekyll portfolio. More specifically, it's a Jekyll theme for personal websites, portfolios, and resumes.",
   "scripts": {
     "dev": "gulp",
     "prod": "gulp build"
   },
-  "author": "Long Do",
+  "author": "Bryce Kinsey",
   "license": "MIT",
   "dependencies": {
     "browser-sync": "^2.26.12",

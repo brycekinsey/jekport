@@ -68,14 +68,13 @@ Example of a dev tool:
 Example of a timeline entry:
 
 ```yml
-- title: airbnb
-  title-url: https://example.com/
-  date: Sep 2019 - Present
-  subtitle: Fullstack Developer
+- title: Cloud Engineer Intern
+  title-url: https://www.microsoft.com
+  date: Jan 2017 - Feb 2018
+  subtitle: Microsoft
   tags:
-    - tag: React
-    - tag: Javascript
-    - tag: Ruby
-    - tag: Rails
+    - tag: Azure
+    - tag: Office 365
+    - tag: Intune
   timeline-side: right
 ```
