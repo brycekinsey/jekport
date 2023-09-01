@@ -140,19 +140,17 @@ You need to generate a new personal access token on GitHub:
 * Go to the [Github Token site](https://github.com/settings/tokens/new).
 * Expand the `Personal access tokens` tab.
   * You can select either the `Fine-grained tokens` or `Tokens (classic)` option.
-  * For this guide, I'm going to use the `Fine-grained tokens` option.
-* Select `Fine-grained tokens` and then `Generate new token`.
+  * For this guide, I'm going to use the `Tokens (classic)` option.
+* Select `Tokens (classic)` and then `Generate new token (classic)`.
 * Enter the token settings. My recommended settings are as follows:
-  * `Token name`: JEKYLL_GITHUB_TOKEN
-  * `Expiration`: It goes up to a year from today. Select `Custom...` and then set the date for a year from today.
-  * `Description`: Token for Jekport's GitHub Metadata plugin.
-  * `Resource owner`: Leave it as yourself
-  * `Repository access`: Select `All repositories`.
-  * `Permissions`: Under Repository Permissions, set `Metadata` to Read-Only access. The remaining permissions can stay on the default `no access`.
-* Confirm the token settings and select `Generate token`. Copy the token you see on the page.
+  * `Note`: JEKYLL_GITHUB_TOKEN
+  * `Expiration`: Setting an expiration date on personal access tokens is highly recommended as this helps keep your information secure. GitHub will send you an email when it's time to renew a token that's about to expire. Tokens that have expired can be regenerated, giving you a duplicate token with the same properties as the original.
+  * `Select scopes`: Under `repo`, enable `public_repo`.
+  * Select `Generate Token` and copy the token.
 * Save your token as an environment variable value and/or as a repository secret. 
-  * For local development (off of GitHub), you'll want to save your token as an environment variable value.
-    * Create a `.env` file inside your local repository and add your generated variable name (e.g.JEKYLL_GITHUB_TOKEN) and token. It should look like this: `JEKYLL_GITHUB_TOKEN=0YOUR0GENERATED0TOKEN0`
+  * For local development (off of GitHub), you can save your token as an environment variable value.
+    * *This is a simple, general solution and by no means the best or most secure one.*
+    * Edit the `.env` file inside your local repository and replace the secret with your token. It should look like this: `JEKYLL_GITHUB_TOKEN=0YOUR0GENERATED0TOKEN0`
     * Confirm that the `.env` file is included, and uncommented, in the `.gitignore` file.
   * For use on GitHub, you'll want to save your token as a repository secret.
     * Go to your repo's settings, then scroll down to the `Security` section.
